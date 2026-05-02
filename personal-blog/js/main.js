@@ -717,19 +717,19 @@
     '.programming-section .section-tagline': 'Keep evolving · Do the hard right thing',
     '.basketball-section .section-tagline': 'Ball Hard · Game of Life · Keep Evolving',
     '.life-section .section-tagline': 'Find beauty · Stay curious',
-    '.bball-quote': '"Devin 10000hours:<br>IN THE LAN<br>Focus on one specific field for 10000 hours<br>The path to mastery."',
+    '.bball-quote': '"Devin 10000 hours:<br>IN THE LAB<br>Focus on one specific field for 10000 hours<br>The path to mastery."',
     '.footer-tagline': 'A digital space about code, basketball, and life.<br>Document growth, share thoughts, explore infinite possibilities.',
     '.footer-copy': '© 2026 Sinkendlessly. All rights reserved.',
   };
 
   const enSubtitles = {
     '.programming-section .section-subtitle': 'Full-stack, AI is the trend, one step at a time.',
-    '.basketball-section .section-subtitle': 'Basketball is more than a sport, it\'s a life attitude. On the court, I learn teamwork, perseverance, and never giving up.',
+    '.basketball-section .section-subtitle': 'Basketball is more than a sport — it\'s an attitude toward life. On the court, I\'ve learned teamwork, perseverance, and never giving up.',
     '.life-section .section-subtitle': 'Life is more than just code and basketball. There are countless wonders to explore.',
   };
 
   const enHtmls = {
-    '.about-text': '<p>Name: Yu Xinbai<br>Of course, my online alias is <span class="about-highlight">Sinkendlessly</span><br>I\'m a late <span class="about-highlight">tech</span> enthusiast.</p><p>I believe code can change the world<br>basketball builds character<br>and <span class="about-highlight">patience</span> is the key to life.<br><span class="about-highlight">Step by step. Patience is key in life.💗</span></p><p>My first demo blog<br>Always improving<br>Tech insights, basketball thoughts<br>and bits of daily life<br>Keep evolving and growing<br><span class="about-highlight">Please🙏</span></p>',
+    '.about-text': '<p>Name: Yu Xinbai<br>Of course, my online alias is <span class="about-highlight">Sinkendlessly</span><br>I\'m a late <span class="about-highlight">tech</span> enthusiast.</p><p>I believe code can change the world<br>basketball builds character<br>and <span class="about-highlight">patience</span> is the key to life.<br><span class="about-highlight">Step by step. Patience is key in life.💗</span></p><p>My first demo blog<br>Always improving<br>Tech insights, basketball thoughts<br>and bits of daily life<br>Keep evolving and growing<br><span class="about-highlight">Please bear with me🙏</span></p>',
   };
 
   const enGroups = {
@@ -743,7 +743,7 @@
       'Machine Learning, LLM<br>AI Systems',
       'AWS, Docker, CI/CD<br>Cloud Native',
     ],
-    '.team-info h4': ['Point Guard', '3PT Shooter', 'Lockdown Defender', 'Jared Maccian'],
+    '.team-info h4': ['Point Guard', '3PT Shooter', 'Lockdown Defender', 'Jared McCain'],
     '.team-info p': ['Run the offense', 'Outside shooting', 'Lock in on D', 'Step by step. Patience is key in life.💗'],
     '.life-title': ['Music', 'Travel', 'Reading', 'Anime', 'Photography', 'Fitness'],
     '.life-desc': [
