@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_x31_" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 300 300">
+  <defs>
+    <style>.w{fill:#ffffff}</style>
+  </defs>
+  <rect class="w" x="80" y="40" width="20" height="220"/>
+  <rect class="w" x="180" y="220" width="20" height="40"/>
+  <rect class="w" x="170" y="250" width="20" height="40" transform="translate(450 90) rotate(90)"/>
+  <rect class="w" x="160" y="180" width="80" height="20"/>
+  <rect class="w" x="100" y="60" width="20" height="20"/>
+  <rect class="w" x="140" y="100" width="20" height="20"/>
+  <rect class="w" x="160" y="180" width="20" height="40"/>
+  <rect class="w" x="142.5" y="220" width="20" height="40"/>
+  <rect class="w" x="120" y="200" width="20" height="20"/>
+  <rect class="w" x="100" y="220" width="20" height="20"/>
+  <rect class="w" x="120" y="80" width="20" height="20"/>
+  <rect class="w" x="160" y="120" width="20" height="20"/>
+  <rect class="w" x="200" y="160" width="20" height="20"/>
+  <rect class="w" x="180" y="140" width="20" height="20"/>
+</svg>

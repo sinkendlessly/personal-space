@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.prm.ooo)",
+      "WebSearch",
+      "Bash(npx serve *)",
+      "Bash(curl -s http://localhost:57455/index.html)",
+      "Bash(curl -s http://localhost:57455/)",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' \"http://localhost:57455/assets/images/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20260430055313_217_203.jpg\")",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' http://localhost:57455/__TRACKED_VAR__)",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' \"http://localhost:57455/\")",
+      "Bash(curl -s \"http://localhost:57455/\")",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' http://localhost:57455/assets/images/__TRACKED_VAR__)"
+    ]
+  }
+}

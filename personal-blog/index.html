@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sinkendlessly - Personal Blog</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+  <!-- Loading Screen -->
+  <div class="loading-screen" id="loading">
+    <div class="loader-logo">
+      <div class="loader-block"></div>
+      <div class="loader-block"></div>
+      <div class="loader-block"></div>
+      <div class="loader-block"></div>
+    </div>
+  </div>
+
+  <!-- Noise Overlay -->
+  <div class="noise-overlay"></div>
+
+  <!-- Custom Cursor -->
+  <div class="custom-cursor" id="customCursor">
+    <img src="./assets/images/组件/鼠标.svg" alt="cursor" class="cursor-svg">
+  </div>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-overlay" id="mobileOverlay">
+    <nav class="mobile-nav">
+      <a href="#about" class="mobile-nav-link">About</a>
+      <a href="#programming" class="mobile-nav-link">Code</a>
+      <a href="#basketball" class="mobile-nav-link">Ball</a>
+      <a href="#life" class="mobile-nav-link">Life</a>
+    </nav>
+  </div>
+
+  <!-- Navigation -->
+  <header class="nav-header">
+    <a href="#" class="logo">Sinkendlessly<span style="width: 15px; height: 26px; padding-top: 0px; padding-bottom: 0px; font-size: 26px; line-height: 31px; letter-spacing: -1px; color: #7a227a;"></span></a>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#programming" class="nav-link">Code</a></li>
+        <li><a href="#basketball" class="nav-link">Ball</a></li>
+        <li><a href="#life" class="nav-link">Life</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="section hero-section" id="hero" data-bg="#ffffff" data-color="#000000">
+    <div class="floating-text" aria-hidden="true">Sinkendlessly</div>
+    <div class="hero-content">
+      <h1 class="hero-title" data-tilt="title">
+        <span class="line"><span>Sinkendlessly</span></span>
+        <span class="line"><span>blog</span></span>
+      </h1>
+
+      <p class="hero-subtitle" data-tilt="subtitle">Code · Basketball · Life · Growth</p>
+
+      <!-- Cyber Avatar in Hero -->
+      <div class="hero-avatar-wrap">
+        <div class="avatar-coin" id="avatarCoin" data-state="normal">
+          <div class="avatar-face" id="avatarFace">
+            <img src="./assets/images/头像/平常.png" alt="平常" class="avatar-img state-normal">
+            <img src="./assets/images/头像/微笑.png" alt="微笑" class="avatar-img state-smile">
+            <img src="./assets/images/头像/惊讶.png" alt="惊讶" class="avatar-img state-surprised">
+            <img src="./assets/images/头像/小怪兽.png" alt="小怪兽" class="avatar-img state-monster">
+          </div>
+          <div class="avatar-ring"></div>
+        </div>
+        <p class="avatar-label">点点我</p>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span class="scroll-text">next</span>
+      <div class="scroll-line"></div>
+    </div>
+    <div class="section-tagline">Welcome to my space</div>
+  </section>
+
+  <!-- About -->
+  <section class="section about-section" id="about" data-bg="#0c0c0c" data-color="#ffffff">
+    <div class="floating-text" aria-hidden="true">Sinkendlessly</div>
+    <div class="section-content">
+      <h2 class="section-title" data-animate data-tilt="title">
+        <span class="char">A</span><span class="char">B</span><span class="char">O</span><span class="char">U</span><span class="char">T</span>
+      </h2>
+      <div class="about-grid">
+        <div class="about-image-wrap">
+          <img src="./assets/images/个人/微信图片_20260430055319_218_203.jpg" alt="About" loading="lazy">
+        </div>
+        <div>
+          <div class="about-text">
+            <p>姓名 余信佰<br>当然 我的网名 <span class="about-highlight">Sinkendlessly</span><br>算是 一名晚到的 <span class="about-highlight">技术</span> 爱好者。</p>
+            <p>我相信代码可以改变世界<br>篮球可以磨炼意志<br>而<span class="about-highlight">耐心</span>是生活的关键。<br><span class="about-highlight">Step by step.Patience is key in life.💗</span></p>
+            <p>第一个demo博客<br>不断完善<br>技术、篮球感悟<br>以及生活中的点滴<br>持续进化成长<br><span class="about-highlight">Please🙏</span></p>
+          </div>
+          <div class="about-stats">
+            <div class="stat-item">
+              <div class="stat-number">2+</div>
+              <div class="stat-label">年编程经验</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">20+</div>
+              <div class="stat-label">年龄</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">∞</div>
+              <div class="stat-label">学习热情</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number">24/7</div>
+              <div class="stat-label">保持好奇</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-tagline">Step by step · Patience is key</div>
+  </section>
+
+  <!-- Code -->
+  <section class="section programming-section" id="programming" data-bg="#0d1b2a" data-color="#ffffff">
+    <div class="floating-text" aria-hidden="true">Sinkendlessly</div>
+    <div class="section-content">
+      <h2 class="section-title" data-animate data-tilt="title">
+        <span class="char">C</span><span class="char">o</span><span class="char">d</span><span class="char">e</span>
+      </h2>
+      <p class="section-subtitle" data-animate data-tilt="subtitle">全栈、AI是趋势所在，一步一个脚印。</p>
+
+      <div class="skills-carousel">
+        <div class="carousel-viewport" id="carouselViewport" data-lenis-prevent>
+          <div class="carousel-track" id="carouselTrack">
+            <div class="skill-card">
+              <div class="skill-card-bg" style="background-image: url('./assets/images/编程/1.jpeg');"></div>
+              <div class="skill-card-overlay"></div>
+              <div class="skill-card-content">
+                <div class="skill-icon">⚡</div>
+                <h3 class="skill-name">前端开发</h3>
+                <p class="skill-desc">React, Vue, TypeScript<br>构建现代化 Web 应用</p>
+              </div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-card-bg" style="background-image: url('./assets/images/编程/2.jpg');"></div>
+              <div class="skill-card-overlay"></div>
+              <div class="skill-card-content">
+                <div class="skill-icon">🔧</div>
+                <h3 class="skill-name">后端开发</h3>
+                <p class="skill-desc">Node.js, Python<br>数据库设计, API 开发</p>
+              </div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-card-bg" style="background-image: url('./assets/images/编程/3.jpeg');"></div>
+              <div class="skill-card-overlay"></div>
+              <div class="skill-card-content">
+                <div class="skill-icon">🎨</div>
+                <h3 class="skill-name">UI/UX 设计</h3>
+                <p class="skill-desc">用户界面设计, 交互设计<br>视觉美学</p>
+              </div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-card-bg" style="background-image: url('./assets/images/编程/4.jpeg');"></div>
+              <div class="skill-card-overlay"></div>
+              <div class="skill-card-content">
+                <div class="skill-icon">📱</div>
+                <h3 class="skill-name">移动端</h3>
+                <p class="skill-desc">React Native, Flutter<br>跨平台开发</p>
+              </div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-card-bg" style="background-image: url('./assets/images/编程/5.jpeg');"></div>
+              <div class="skill-card-overlay"></div>
+              <div class="skill-card-content">
+                <div class="skill-icon">🤖</div>
+                <h3 class="skill-name">人工智能</h3>
+                <p class="skill-desc">机器学习, LLM 应用<br>智能系统开发</p>
+              </div>
+            </div>
+            <div class="skill-card">
+              <div class="skill-card-bg" style="background-image: url('./assets/images/编程/6.jpg');"></div>
+              <div class="skill-card-overlay"></div>
+              <div class="skill-card-content">
+                <div class="skill-icon">☁️</div>
+                <h3 class="skill-name">云计算</h3>
+                <p class="skill-desc">AWS, Docker, CI/CD<br>云原生架构</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-tagline">持续进化 · 做难而正确的事</div>
+  </section>
+  <section class="section basketball-section" id="basketball" data-bg="#1a1612" data-color="#ffffff">
+    <div class="floating-text" aria-hidden="true">Sinkendlessly</div>
+    <div class="section-content">
+      <h2 class="section-title" data-animate data-tilt="title">
+        <span class="char">B</span><span class="char">a</span><span class="char">l</span><span class="char">l</span>
+      </h2>
+      <p class="section-subtitle" data-animate data-tilt="subtitle">篮球不仅是运动，更是一种生活态度。在球场上，我学会了团队协作、坚持不懈和永不放弃。</p>
+
+      <div class="bball-grid">
+        <div>
+          <div class="bball-gallery">
+            <div class="bball-img">
+              <img src="./assets/images/篮球/微信图片_20260430053554_213_203.jpg" alt="Basketball 1" loading="lazy">
+            </div>
+          </div>
+        </div>
+        <div>
+          <blockquote class="bball-quote">
+            "德文10000hours:<br>IN THE LAN<br>专注某一特定领域10000小时<br>大师之路。"
+          </blockquote>
+          <div class="bball-teams">
+            <div class="team-card">
+            <div class="team-logo">PG</div>
+            <div class="team-info">
+              <h4>控球后卫</h4>
+              <p>组织进攻</p>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-logo">3PT</div>
+            <div class="team-info">
+              <h4>三分射手</h4>
+              <p>外线投射</p>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-logo">DEF</div>
+            <div class="team-info">
+              <h4>防守悍将</h4>
+              <p>专注防守</p>
+            </div>
+          </div>
+          <div class="team-card">
+            <div class="team-logo">idol</div>
+            <div class="team-info">
+              <h4>Jared Maccian</h4>
+              <p>Step by step.Patience is key in life.💗</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-tagline">火拼 球生游戏 持续进化</div>
+  </section>
+
+  <!-- Life -->
+  <section class="section life-section" id="life" data-bg="#1a1f1c" data-color="#ffffff">
+    <div class="floating-text" aria-hidden="true">Sinkendlessly</div>
+    <div class="section-content">
+      <h2 class="section-title" data-animate data-tilt="title">
+        <span class="char">L</span><span class="char">i</span><span class="char">f</span><span class="char">e</span>
+      </h2>
+      <p class="section-subtitle" data-animate data-tilt="subtitle">生活不止眼前的代码和篮球，还有无数值得探索的美好。</p>
+
+      <div class="life-grid">
+        <div class="life-card" style="background-image: url('./assets/images/生活/音乐/cebe28220e955d0c76d3c48c0be91a04.jpg');">
+          <div class="life-icon">🎵</div>
+          <div>
+            <h3 class="life-title">音乐</h3>
+            <p class="life-desc">hip-hop, R&B, 爵士乐，音乐是代码之外的另一种表达</p>
+          </div>
+        </div>
+        <div class="life-card" style="background-image: url('./assets/images/生活/旅游/8cd73cfdc12ff3743caa5db693b4172d.jpg');">
+          <div class="life-icon">✈️</div>
+          <div>
+            <h3 class="life-title">旅行</h3>
+            <p class="life-desc">喜欢徒步，喜欢探索未知的风景</p>
+          </div>
+        </div>
+        <div class="life-card" style="background-image: url('./assets/images/生活/阅读/Sink.png');">
+          <div class="life-icon">📚</div>
+          <div>
+            <h3 class="life-title">阅读</h3>
+            <p class="life-desc">认知，思考，创造，改变</p>
+          </div>
+        </div>
+        <div class="life-card" style="background-image: url('./assets/images/生活/动漫/1.png');">
+          <div class="life-icon">🍲</div>
+          <div>
+            <h3 class="life-title">动漫</h3>
+            <p class="life-desc">2.5次元的我，也有属于自己的爱好</p>
+          </div>
+        </div>
+        <div class="life-card" style="background-image: url('./assets/images/生活/摄影/微信图片_20260430055327_220_203.jpg');">
+          <div class="life-icon">📷</div>
+          <div>
+            <h3 class="life-title">摄影</h3>
+            <p class="life-desc">记录曾经的瞬间，时间没办法逆流</p>
+          </div>
+        </div>
+        <div class="life-card" style="background-image: url('./assets/images/生活/健身/微信图片_20260430064121_229_203.jpg');">
+          <div class="life-icon">💪</div>
+          <div>
+            <h3 class="life-title">健身</h3>
+            <p class="life-desc">保持运动习惯，为更好的人生蓄力</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section-tagline">发现美好 · 保持好奇</div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="footer">
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">Sinkendlessly<span>.</span></div>
+          <p class="footer-tagline">
+            一个关于代码、篮球与生活的数字空间。<br>
+            记录成长，分享思考，探索无限可能。
+          </p>
+        </div>
+        <div>
+          <h4 class="footer-col-title">导航</h4>
+          <ul class="footer-links">
+            <li><a href="#about" class="footer-link">About</a></li>
+            <li><a href="#programming" class="footer-link">Code</a></li>
+            <li><a href="#basketball" class="footer-link">Ball</a></li>
+            <li><a href="#life" class="footer-link">Life</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">社交</h4>
+          <ul class="footer-links">
+            <li><a href="#" class="footer-link">GitHub</a></li>
+            <li><a href="#" class="footer-link">Twitter</a></li>
+            <li><a href="#" class="footer-link">Instagram</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">联系</h4>
+          <ul class="footer-links">
+            <li><a href="#" class="footer-link">Email</a></li>
+            <li><a href="#" class="footer-link">Discord</a></li>
+            <li><a href="#" class="footer-link">WeChat</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-copy">© 2026 Sinkendlessly. All rights reserved.</p>
+        <div class="footer-social">
+          <a href="#" class="social-link">GH</a>
+          <a href="#" class="social-link">TW</a>
+          <a href="#" class="social-link">IG</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox-close" id="lightboxClose">×</button>
+    <img class="lightbox-img" id="lightboxImg" src="" alt="Enlarged photo">
+  </div>
+
+  <!-- Dot Navigation -->
+  <ul class="dot-nav" id="dotNav">
+    <li><a href="#hero" class="dot-link" data-target="hero"></a></li>
+    <li><a href="#about" class="dot-link" data-target="about"></a></li>
+    <li><a href="#programming" class="dot-link" data-target="programming"></a></li>
+    <li><a href="#basketball" class="dot-link" data-target="basketball"></a></li>
+    <li><a href="#life" class="dot-link" data-target="life"></a></li>
+    <li><a href="#footer" class="dot-link" data-target="footer"></a></li>
+  </ul>
+
+
+  <!-- Music Player -->
+  <div class="music-player" id="musicPlayer">
+    <div class="player-visualizer" id="playerVisualizer">
+      <span></span><span></span><span></span><span></span><span></span>
+    </div>
+    <div class="player-body">
+      <span class="player-note" id="playerNote">♩</span>
+      <span class="player-title" id="playerTitle">track5</span>
+      <button class="player-toggle" id="playerToggle">▶</button>
+    </div>
+    <audio id="playerAudio" src="./assets/images/audio/track5.mp3" preload="metadata" loop></audio>
+  </div>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <!-- Language Toggle (bottom-right) -->
+  <button class="lang-float" id="langToggle" aria-label="Switch language">
+    <img src="./assets/images/组件/English.svg" alt="EN" class="lang-icon-en">
+    <img src="./assets/images/组件/中文.png" alt="ZH" class="lang-icon-zh">
+  </button>
+
+  <!-- 3D Background Canvas -->
+  <canvas id="webgl-canvas"></canvas>
+
+  <!-- Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.27/bundled/lenis.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
