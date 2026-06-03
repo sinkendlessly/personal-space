@@ -29,6 +29,7 @@
   // Wheel → snap
   document.addEventListener('wheel', (e) => {
     if (e.target.closest('[data-lenis-prevent]')) return;
+    if (e.ctrlKey || e.metaKey) return;
     e.preventDefault();
     if (isSnapping) return;
     const dir = e.deltaY > 0 ? 1 : -1;
@@ -170,7 +171,7 @@
   let carouselReady = false;
   let isJumping = false; // prevents transitionend re-entry during clone jump
 
-  const CAROUSEL_GAP = 60;
+  const CAROUSEL_GAP = 30;
 
   /** Clone first & last card for seamless infinite wrapping */
   function setupInfiniteLoop() {
